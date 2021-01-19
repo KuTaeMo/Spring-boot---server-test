@@ -16,7 +16,11 @@
 ![image](https://user-images.githubusercontent.com/67215505/104995851-3fe5f380-5a6a-11eb-916c-82f212d36da9.png)
 
 ### Movie delete
+#### - 성공
 ![image](https://user-images.githubusercontent.com/67215505/104995895-52f8c380-5a6a-11eb-988d-fb0b5abc5380.png)
+
+#### - 실패
+![image](https://user-images.githubusercontent.com/67215505/104997213-918f7d80-5a6c-11eb-8f3c-dba92f78da44.png)
 
 ### Movie update
 #### - 성공
