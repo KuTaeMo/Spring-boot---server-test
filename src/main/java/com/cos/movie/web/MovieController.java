@@ -50,7 +50,11 @@ public class MovieController {
 	@DeleteMapping("/movie/{id}")
 	public CommonDto<String> delete(@PathVariable int id){
 		movieRepository.delete(id);
-		return new CommonDto<>(HttpStatus.OK.value(),"ok");
+		if(id==8) {
+			return new CommonDto<>(HttpStatus.OK.value(),"ok");
+		}else {
+			return new CommonDto<>(HttpStatus.INTERNAL_SERVER_ERROR.value(),"fail");
+		}
 	}
 	
 	@PutMapping("/movie/{id}")
